@@ -1,0 +1,70 @@
+@import "/assets/css/reset.css";
+@import "/assets/css/fonts.css";
+
+html,
+body{
+    height: 100%;
+}
+body{
+    font-family: 'Poppins-Bold',sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    color: #000;
+    line-height: 200%;
+}
+.container{
+    max-width: 1200px;
+    padding: 0 10px;
+    margin: 0 auto;
+}
+.header{
+    min-height: 120px;
+    position: absolute;
+}
+.nav{
+    display: flex;
+    justify-content: space-between;
+}
+.logo{
+    color: #FFFFFF;
+    font-weight: 500;
+    font-size: 48px;
+}
+.menu-list{
+    display: flex;
+    gap: 50px;
+    padding-top: 17px;
+}
+
+.menu-link{
+    font-size: 24px;
+    color: #FFFFFF;
+}
+.promo{
+    background-image: url("../images/bgtitle.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+.promo__inner{
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    text-align: center;
+    padding-top: 310px;
+    max-width: 820px;
+    margin: 0 auto;
+}
+.promo__title{
+    font-size: 64px;
+    font-weight: 600;
+    color: #FFF;
+    margin-bottom: 40px;
+    line-height: 200%;
+}
+.promo__text{
+    font-size: 24px;
+    font-weight: 500;
+    padding: 0 310px;
+    margin: 0 auto;
+}
