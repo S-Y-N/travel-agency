@@ -5,14 +5,17 @@ namespace App\Models;
 use Illuminate\Database\Eloquent\Factories\HasFactory;
 use Illuminate\Database\Eloquent\Model;
 
-class Category extends Model
+/**
+ * Описує банк.
+ */
+class Bank extends Model
 {
     use HasFactory;
     protected $guarded = [];
 
-    public function posts()
+    public function legalBodies()
     {
-        return $this->hasMany(Post::class);
+        return $this->hasMany(LegalBody::class);
     }
 }
 
