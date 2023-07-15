@@ -102,6 +102,7 @@
 - first_name: Ім'я працівника. VARCHAR(128)
 - last_name: Фамілія працівника. VARCHAR(128)
 - email: Контактна адрреса електронної пошти. VARCHAR(256)
+- password: Хеш паролю для входу до аккаунту. VARCHAR(256)
 - company_id: Ідентифікатор компанії працівника. INT, FOREIGN KEY
     * bank_id є ключем до таблиці companies, поле id
 
