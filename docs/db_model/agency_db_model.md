@@ -17,6 +17,9 @@
     * bank_id є ключем до таблиці banks, поле id
 
 
+    asfhskjdsakdfhasjlkdfhaskjdfhfajksdhfajlksdfhlsjk
+
+
 ## banks
 
 Описує банк.
