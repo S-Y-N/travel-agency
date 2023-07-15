@@ -483,6 +483,10 @@ body {
     font-weight: 500;
 }
 
+#rec_content-3 .recomm__img-img {
+    border-radius: 20px;
+}
+
 .recomm__info {
     padding-left: 30px;
 }
@@ -527,9 +531,9 @@ body {
 }
 
 .review__text {
+    text-align: center;
     line-height: 200%;
-    margin-bottom: 10px;
-    padding-top: 84px;
+    padding: 84px 36px 10px;
 }
 
 .review__name {
