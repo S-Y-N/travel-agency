@@ -237,6 +237,7 @@ body {
     text-align: center;
     background-color: #fff;
     border-radius: 50px;
+    min-width: 380px;
 }
 
 .travel-card__title {
@@ -253,6 +254,7 @@ body {
     font-size: 18px;
     color: rgba(29, 28, 28, 0.7);
     letter-spacing: .5em;
+    padding-right: 13px;
 }
 
 .card__wrapper {
@@ -405,6 +407,7 @@ body {
 
 .recommended {
     padding-top: 80px;
+    margin-bottom: 120px;
 }
 
 .recommended__title {
@@ -481,4 +484,95 @@ body {
     background-position: left;
     padding-left: 30px;
     margin-bottom: 10px;
+}
+
+.rewies {
+    padding-top: 100px;
+}
+
+.reviews__inner {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    gap: 20px;
+    font-size: 20px;
+}
+
+.review__inner-block {
+    background-color: #fff;
+    border-radius: 50px;
+    background-image: url(../images/quotes.png);
+    background-repeat: no-repeat;
+    background-position: top 36px center;
+
+}
+
+.review__text {
+    line-height: 200%;
+    margin-bottom: 10px;
+    padding-top: 84px;
+}
+
+.review__name {
+    line-height: 200%;
+    color: #3E86F5;
+}
+
+.review__user {
+    position: relative;
+    top: 50px;
+}
+
+.review__user-img {
+    background: #fff;
+    padding: 0 40px 10px;
+    border-radius: 50%;
+}
+
+.review__rating {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    top: 6px;
+    right: 230px;
+    width: 45px;
+    height: 20px;
+    background-color: #fff;
+    border-radius: 15px;
+}
+
+.review__rating-text {
+    font-size: 12px;
+    font-weight: 600;
+}
+
+.review__location {
+    color: rgba(68, 68, 68, 0.7);
+}
+
+.footer {
+    padding-top: 170px;
+    padding-bottom: 20px;
+}
+
+.footer__menu {
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer__menu-list {
+    display: flex;
+    gap: 50px;
+}
+
+.footer__menu-link {
+    font-size: 24px;
+    color: rgba(29, 28, 28, 0.7);
+}
+
+.footer__copy-text {
+    font-size: 20px;
+    color: rgba(68, 68, 68, 0.7);
 }
