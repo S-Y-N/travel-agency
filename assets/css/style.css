@@ -227,10 +227,21 @@ body {
     color: rgba(29, 28, 28, 0.7);
 }
 
+.tabs__btn-item--active {
+    background-color: #3E86F5;
+    color: #fff;
+    padding: 10px 24px;
+    border-radius: 10px;
+}
+
 .tabs__content-item {
-    display: grid;
+    display: none;
     grid-template-columns: repeat(3, 1fr);
     gap: 20px;
+}
+
+.tabs__content-item.tabs__content-item--active {
+    display: grid;
 }
 
 .travel-card {
@@ -431,16 +442,21 @@ body {
     padding: 10px 20px;
 }
 
-.recomm__btn-item:hover {
-    background-color: #fff;
-    color: #3E86F5;
-    border-radius: 10px;
-}
-
-.recomm__content {
-    display: grid;
+.recomm__content-item {
+    display: none;
     grid-template-columns: repeat(4, 1fr);
     gap: 20px;
+}
+
+.recomm__content-item--active {
+    display: grid;
+}
+
+.recomm__tabs__btn-item--active {
+    background-color: #fff;
+    padding: 10px 23;
+    color: #3E86F5;
+    border-radius: 10px;
 }
 
 .recomm__card {
@@ -497,6 +513,9 @@ body {
     text-align: center;
     gap: 20px;
     font-size: 20px;
+    overflow: hidden;
+    min-height: 580px;
+    cursor: pointer;
 }
 
 .review__inner-block {
@@ -505,7 +524,6 @@ body {
     background-image: url(../images/quotes.png);
     background-repeat: no-repeat;
     background-position: top 36px center;
-
 }
 
 .review__text {
