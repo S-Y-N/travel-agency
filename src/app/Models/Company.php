@@ -7,9 +7,9 @@ use Illuminate\Database\Eloquent\Model;
 use Illuminate\Database\Eloquent\Relations\BelongsTo;
 
 /**
- * Описує юридичну сутність, яка виконує оплату.
+ * Описує туристичну агенцію, від обличчя якої відбувається робота.
  */
-class LegalBody extends Model
+class Company extends Model
 {
     use HasFactory;
     protected $guarded = [];
