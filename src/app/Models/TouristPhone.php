@@ -10,7 +10,7 @@ use Illuminate\Database\Eloquent\Relations\BelongsToMany;
  * Описує номер телефону туриста.
  * Має зв'язок багато-до-багатьох з таблицями messengers та tourists.
  */
-class Messenger extends Model
+class TouristPhone extends Model
 {
     use HasFactory;
     protected $guarded = [];

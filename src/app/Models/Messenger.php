@@ -7,7 +7,7 @@ use Illuminate\Database\Eloquent\Model;
 use Illuminate\Database\Eloquent\Relations\BelongsToMany;
 
 /**
- * Описує месенджери, які можуть бути доступні за телефоном.
+ * Описує месенджер, який може бути доступний за телефоном.
  * Має зв'язок багато-до-багатьох з таблицею tourist_phones.
  */
 class Messenger extends Model

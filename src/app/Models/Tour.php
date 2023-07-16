@@ -8,8 +8,8 @@ use Illuminate\Database\Eloquent\Relations\BelongsToMany;
 use Illuminate\Database\Eloquent\Relations\HasMany;
 
 /**
- * Описує країну, у якій проходить тур.
- * Має зв'язок багато-до-багатьох з таблицею tours.
+ * Описує тур, яким можуть користуватись туристи.
+ * Має зв'язок багато-до-багатьох з таблицями tour_types та countries.
  */
 class Tour extends Model
 {

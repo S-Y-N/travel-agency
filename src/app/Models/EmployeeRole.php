@@ -7,7 +7,7 @@ use Illuminate\Database\Eloquent\Model;
 use Illuminate\Database\Eloquent\Relations\BelongsToMany;
 
 /**
- * Описує ролі працівників туристичного агенства.
+ * Описує роль працівника туристичного агенства.
  * Має зв'язок багато-до-багатьох з таблицею employees.
  */
 class EmployeeRole extends Model
@@ -17,7 +17,7 @@ class EmployeeRole extends Model
 
     public function employees(): BelongsToMany
     {
-        return $this->belongsToMany(EmployeeTag::class);
+        return $this->belongsToMany(Employee::class);
     }
 }
 

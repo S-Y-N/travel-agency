@@ -7,8 +7,7 @@ use Illuminate\Database\Eloquent\Model;
 use Illuminate\Database\Eloquent\Relations\BelongsTo;
 
 /**
- * Описує тип туру.
- * Має зв'язок багато-до-багатьох з таблицею tours.
+ * Описує заявку туриста.
  */
 class Sale extends Model
 {
