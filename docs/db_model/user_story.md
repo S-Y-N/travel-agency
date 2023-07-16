@@ -15,7 +15,7 @@
 - `Company` для таблиці `companies`
 - `Employee` для таблиці `employees`
 - `EmployeeRole` для таблиці `employee_roles`
-- `Coutry` для таблиці `coutries`
+- `Country` для таблиці `countries`
 - `Tour` для таблиці `tours`
 - `TourType` для таблиці `tour_types`
 - `Sale` для таблиці `sales`
