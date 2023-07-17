@@ -1,0 +1,276 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/assets/css/profileStyle.css">
+    <title>Company Profile</title>
+</head>
+
+<body>
+    <header class="header">
+        <div class="container">
+            <h2 class="header__title">Профіль компанії</h2>
+        </div>
+    </header>
+    <main class="main">
+        <div class="container">
+            <section class="info">
+                <h2 class="info__title">Інформація для туристів</h2>
+                <div class="info__subtitle">Дані використовуються в обліковому записі туриста та е-мейл повідомленнях.
+                </div>
+                <form class="info__form" action="#" method="post">
+                    <div class="form__col">
+                        <div class="form__field">
+                            <label class="form__label" for="name">Назва</label>
+                            <input class="form__input" type="text" name="name" id="name">
+                        </div>
+                        <div class="form__field">
+                            <label class="form__label" for="phone">Телефони (з кодом міста, через кому)</label>
+                            <input class="form__input" type="text" name="phone" id="phone">
+                        </div>
+                        <div class="form__field">
+                            <label class="form__label" for="email">Е-мейл</label>
+                            <input class="form__input" type="email" name="email" id="email">
+                        </div>
+                        <div class="form__field">
+                            <label class="form__label" for="site">Сайт</label>
+                            <input class="form__input" type="text" name="site" id="site">
+                        </div>
+                    </div>
+                    <button class="form__submit" type="submit">Зберегти</button>
+                </form>
+            </section>
+
+            <section class="requisites">
+                <h2 class="requisites__title">Реквізити для друку договорів</h2>
+                <form class="requisites__form" action="#" method="post">
+                    <div class="form__row">
+                        <div class="form__col">
+                            <div class="form__field">
+                                <label class="form__label" for="name">Назва</label>
+                                <input class="form__input" type="text" id="name" name="name">
+                            </div>
+                        </div>
+                        <div class="form__col">
+                            <div class="form__field">
+                                <label class="form__label" for="rs">Р/р</label>
+                                <input class="form__input" type="text" id="rs" name="rs">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="form__row">
+                        <div class="form__col">
+                            <div class="form__field">
+                                <label class="form__label" for="edprou">ЄДПРОУ</label>
+                                <input class="form__input" type="text" id="edprou" name="edprou">
+                            </div>
+                        </div>
+                        <div class="form__col">
+                            <div class="form__field">
+                                <label class="form__label" for="mfo">МФО</label>
+                                <input class="form__input" type="text" id="mfo" name="mfo">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="form__row">
+                        <div class="form__col">
+                            <div class="form__field">
+                                <label class="form__label" for="headPosition">Посада керівника</label>
+                                <input class="form__input" type="text" id="headPosition" name="headPosition">
+                            </div>
+                        </div>
+                        <div class="form__col">
+                            <div class="form__field">
+                                <label class="form__label" for="bank">Банк</label>
+                                <input class="form__input" type="text" id="bank" name="bank">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="form__row">
+                        <div class="form__col">
+                            <div class="form__field">
+                                <label class="form__label" for="headFIO">ПІБ керівника</label>
+                                <input class="form__input" type="text" id="headFIO" name="headFIO">
+                            </div>
+                            <div class="form__field">
+                                <label class="form__label" for="сhiefAccountant">Головний бухгалтер</label>
+                                <input class="form__input" type="text" id="сhiefAccountant" name="сhiefAccountant">
+                            </div>
+                            <div class="form__field">
+                                <label class="form__label" for="сashier">Касир</label>
+                                <input class="form__input" type="text" id="сashier" name="сashier">
+                            </div>
+                        </div>
+                        <div class="form__col">
+                            <div class="form__field">
+                                <label class="form__label" for="address">Адреса</label>
+                                <textarea class="form__textarea" type="text" id="address" name="address"></textarea>
+                            </div>
+                        </div>
+                    </div>
+                    <button class="form__submit" type="submit">Зберегти</button>
+                </form>
+            </section>
+
+            <section class="sms">
+                <h2 class="sms__title">SMS-розсилки</h2>
+                <div class="sms__text">Прочитайте <a href="#">договір про розсилку SMS-повідомлень</a>. Вписуючи
+                    альфаімя, ви приймаєте умови цього договору і несете відповідальність згідно з цим договором.
+                </div>
+                <form action="#" class="sms__form" method="post">
+                    <div class="form__field">
+                        <label class="form__label" for="sender">Відправник(альфаім'я)</label>
+                        <div class="form__input-container">
+                            <input class="form__input" type="text" id="sender" name="sender">
+                            <span class="form__input-text">Від 3 до 11 символів, тільки латиниця та цифри (без
+                                пробілів),
+                                обов'язково наявність хоча б однієї
+                                літери.</span>
+                        </div>
+                    </div>
+                    <button class="form__submit" type="submit">Зберегти</button>
+                </form>
+            </section>
+
+            <section class="payment">
+                <h2 class="payment__title">Спосіб обліку оплат</h2>
+                <form action="#" class="payment__form" method="post">
+                    <div class="radio-form__item">
+                        <input type="radio" id="option1" name="radio-group" class="radio-form__input" checked>
+                        <label for="option1" class="radio-form__label">Простий</label>
+                        <p class="radio-form__description">Цей спосіб навчання підходить для невеликих турфірм, де
+                            прийом
+                            оплат
+                            від туристів здійснює безпосередньо керівник чи бухгалтерія. Доходи мають все
+                            два
+                            статусу - неоплачений рахунок та сплачений. Будь-яка внесена витрата одразу вважається
+                            оплаченою.
+                        </p>
+                    </div>
+
+                    <div class="radio-form__item">
+                        <input type="radio" id="option2" name="radio-group" class="radio-form__input">
+                        <label for="option2" class="radio-form__label">Повний</label>
+                        <p class="radio-form__description">Цей метод обліку передбачає, що оплати туристів спочатку
+                            приймають менеджери, а згодом здають їх керівнику чи інкасують у бухгалтерію.
+                            Доходи
+                            мають три статуси - неоплачений, не інкасований, оплачений. Витрати спочатку вносяться
+                            менеджерами як розхідні рахунки (вимоги на оплату), а бухгалтер після оплати змінює їх
+                            статус на "оплачений" (підтверджений).</p>
+                    </div>
+
+                    <div class="radio-form__item">
+                        <label class="radio-form__text">Ви можете безболісно змінювати спосіб обліку оплат у будь-який
+                            момент.
+                            Внесена раніше інформація за такого переходу не втрачається. При переході Простого до
+                            Повного
+                            способу, менеджерів необхідно попросити додатково вносити до системи рахунки за заявками.
+                            Усе
+                            це можна робити у вікні «Оплати» у заявці.</label>
+                    </div>
+                    <button class="form__submit" type="submit">Зберегти</button>
+                </form>
+            </section>
+
+            <section class="ip-telefonia">
+                <h2 class="ip-telefonia__title">IP-телефонія</h2>
+                <div class="ip-telefonia__subtitle">Мої Туристи вміють працювати з IP-телефонією. Якщо у вас
+                    уже
+                    є
+                    IP-телефонія, напишіть нам, щоб дізнатися, чи є можливість інтеграції з вашим провайдером.
+                    Якщо ви
+                    стоїте перед вибором, то для Росії вибирайте
+                    <a href="#">Прості</a>
+                    дзвінки, для України
+                    <a href="#">Binotel</a>
+                    і пишіть нам, щоб підключити телефонію до вашого облікового запису.
+                </div>
+                <form action="#" class="ip-telefonia__checkbox-form form">
+                    <div class="checkbox-form__item">
+                        <input type="checkbox" id="checkbox1" name="checkbox-group" class="checkbox-form__input">
+                        <label for="checkbox1" class="checkbox-form__label">Включити інтеграцію з Binotel</label>
+                        <p class="checkbox-form__description">Щоб налаштувати інтеграцію, повідомте співробітників
+                            Binotel.ua
+                            такі дані:<br>
+                            API CALL SETTINGS: https://www.moituristy.ru/json/binotel/?tf=5500&key=a74c1376<br>
+                            API PUSH: https://www.moituristy.ru/json/binotel/push/?tf=5500&key=a74c1376</p>
+
+                    </div>
+                    <div class="checkbox-form__item">
+                        <input type="checkbox" id="checkbox2" name="checkbox-group" class="checkbox-form__input">
+                        <label for="checkbox2" class="checkbox-form__label">Включити інтеграцію з «Прості
+                            дзвінки»</label>
+                        <div class="checkbox-form__ip-host">
+                            <label for="host" class="checkbox-form__label-text">IP або хост</label>
+                            <select name="checkbox-form__select" id="select-host">
+                                <option value="WSS://">WSS://</option>
+                            </select>
+                            <input type="text" class="ip-host_input">
+                            <label for="password" class="ip-host_label">Пароль</label>
+                            <input type="text" name="password" id="password" class="ip-host_input">
+
+                        </div>
+                        <div class="checkbox-form__num-definition">
+                            <label for="host" class="checkbox-form__label-text">Використати
+                                <select name="checkbox-form__select" id="select-host">
+                                    <option value="1">1</option>
+                                    <option value="3">3</option>
+                                    <option value="5">5</option>
+                                    <option value="7" selected>7</option>
+                                </select>
+                                останніх цифр номера для обмерзання</label>
+                        </div>
+                        <div class="checkbox-form__description">
+                            Важливо! Після включення інтеграції перейдіть до
+                            <a href="#">Налаштування</a>
+                            , та вкажіть внутрішній номер телефонії для кожного співробітника, який може приймати
+                            дзвінки.<br>
+                            Браузер Chrome, Firefox і Safari можуть виводити спливаюче повідомлення про вступ
+                            дзвінка,
+                            це дуже зручно. Браузер запросить у вас дозвіл на виведення повідомлень. Натисніть
+                            «Дозволити» в
+                            вікні, коли воно з'явиться вперше. І попередьте співробітників про те, щоб вони також
+                            дозволили
+                            ці повідомлення на комп'ютерах.
+                        </div>
+                    </div>
+                    <button class="form__submit" type="submit">Зберегти</button>
+                </form>
+            </section>
+            <section class="other-settings">
+                <h2 class="other-settings__title">Інші налаштування</h2>
+                <form action="#" class="other-settings__checkbox-form form">
+                    <div class="checkbox-form__item">
+                        <input type="checkbox" id="checkbox1" name="checkbox-group" class="checkbox-form__input">
+                        <label for="checkbox1" class="checkbox-form__label-text">Вимагати коментар при зміні
+                            суми
+                            за договором</label>
+                    </div>
+                    <div class="checkbox-form__item">
+                        <input type="checkbox" id="checkbox2" name="checkbox-group" class="checkbox-form__input">
+                        <label for="checkbox2" class="checkbox-form__label-text">Автоматично нагадувати менеджеру при
+                            відсутності руху за заявкою протягом</label>
+                        <select name="checkbox-form__select" id="select-host">
+                            <option value="1">1 днів</option>
+                            <option value="3">3 днів</option>
+                            <option value="5" selected>5 днів</option>
+                            <option value="7">7 днів</option>
+                        </select>
+                        <ul class="checkbox-form__list">
+                            <span class="checkbox-form__list-title">Нагадування з'являється в розділі «Справи» при двох
+                                умовах:</span>
+                            <li class="checkbox-form__list-item">1) немає нових коментарів по заявці протягом
+                                зазначеного періоду;</li>
+                            <li class="checkbox-form__list-item">2) немає інших нагадувань за цією заявкою.</li>
+                        </ul>
+                    </div>
+                    <button class="form__submit" type="submit">Зберегти</button>
+                </form>
+            </section>
+        </div>
+    </main>
+</body>
+</html>
