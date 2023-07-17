@@ -1,10 +1,17 @@
+@import "/assets/css/profileReset.css";
 * {
     margin: 0;
     padding: 0;
 }
 
+body{
+    font-family: 'Poppins', sans-serif;
+}
+
 .container {
-    margin: 20px 30px;
+    max-width: 1200px;
+    margin: 10px 10px;
+    padding: 0 10px;
 }
 
 .form__row {
@@ -15,8 +22,6 @@
     flex: 1;
     margin-right: 10px;
 }
-
-.form__field {}
 
 .form__label {
     display: block;
@@ -31,7 +36,7 @@
 .form__textarea {
     width: 40vw;
     height: 95px;
-    resize: vertical;
+    resize: none;
 }
 
 .form__submit {
@@ -40,7 +45,8 @@
     border: 0;
     border-radius: 5px;
     padding: 10px 15px;
-    margin-top: 20px;
+    margin-top: 10px;
+    margin-bottom: 20px;
 }
 
 .form__input-text {
