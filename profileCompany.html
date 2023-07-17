@@ -1,0 +1,300 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Company Profile</title>
+</head>
+
+<body>
+    <header class="header">
+        <div class="container">
+            <div class="header__title title">
+                <h2 class="header__h2 h2">Профиль компании</h2>
+            </div>
+        </div>
+    </header>
+    <hr>
+    <main class="main">
+        <section class="info">
+            <div class="container">
+                <div class="info__title title">
+                    <h2 class="info__h2 h2">Информация для туристов</h2>
+                </div>
+                <div class="info__subtitle subtitle">Данные используются в аккаунте туриста и е-мейл уведомлениях.</div>
+                <form class="info__form form" action="#" method="post">
+                    <div class="form__col col">
+                        <div class="form__field field">
+                            <label class="form__label lable" for="name">Название</label>
+                            <input class="form__input input" type="text" name="name" id="name">
+                        </div>
+                        <div class="form__field field">
+                            <label class="form__label lable" for="phone">Телефоны(с кодом города, через запятую)</label>
+                            <input class="form__input input" type="text" name="phone" id="phone">
+                        </div>
+                        <div class="form__field field">
+                            <label class="form__label lable" for="email">Е-мейл</label>
+                            <input class="form__input input" type="email" name="email" id="email">
+                        </div>
+                        <div class="form__field field">
+                            <label class="form__label lable" for="site">Сайт</label>
+                            <input class="form__input input" type="text" name="site" id="site">
+                        </div>
+                    </div>
+                    <button class="form__submit submit" type="submit">Сохранить</button>
+                </form>
+            </div>
+        </section>
+        <hr>
+        <section class="requisites">
+            <div class="container">
+                <div class="requisites__title title">
+                    <h2 class="requisites__h2 h2">Реквизиты для печати договоров</h2>
+                </div>
+                <form class="requisites__form form" action="#" method="post">
+                    <div class="form__row row">
+                        <div class="form__col col">
+                            <div class="form__field field">
+                                <label class="form__label label" for="name">Название</label>
+                                <input class="form__input input" type="text" id="name" name="name">
+                            </div>
+                        </div>
+                        <div class="form__col col">
+                            <div class="form__field field">
+                                <label class="form__label label" for="rs">Р/с</label>
+                                <input class="form__input input" type="text" id="rs" name="rs">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="form__row row">
+                        <div class="form__col col">
+                            <div class="form__field field">
+                                <label class="form__label label" for="edprou">ЕДПРОУ</label>
+                                <input class="form__input input" type="text" id="edprou" name="edprou">
+                            </div>
+                        </div>
+                        <div class="form__col col">
+                            <div class="form__field field">
+                                <label class="form__label label" for="mfo">МФО</label>
+                                <input class="form__input input" type="text" id="mfo" name="mfo">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="form__row row">
+                        <div class="form__col col">
+                            <div class="form__field field">
+                                <label class="form__label label" for="headPosition">Должность руководителя</label>
+                                <input class="form__input input" type="text" id="headPosition" name="headPosition">
+                            </div>
+                        </div>
+                        <div class="form__col col">
+                            <div class="form__field field">
+                                <label class="form__label label" for="bank">Банк</label>
+                                <input class="form__input input" type="text" id="bank" name="bank">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="form__row row">
+                        <div class="form__col col">
+                            <div class="form__field field">
+                                <label class="form__label label" for="headFIO">ФИО руководителя</label>
+                                <input class="form__input input" type="text" id="headFIO" name="headFIO">
+                            </div>
+                            <div class="form__field field">
+                                <label class="form__label label" for="сhiefAccountant">Главный бухгалтер</label>
+                                <input class="form__input input" type="text" id="сhiefAccountant"
+                                    name="сhiefAccountant">
+                            </div>
+                            <div class="form__field field">
+                                <label class="form__label label" for="сashier">Кассир</label>
+                                <input class="form__input input" type="text" id="сashier" name="сashier">
+                            </div>
+                        </div>
+                        <div class="form__col col">
+                            <div class="form__field field">
+                                <label class="form__label label" for="address">Адрес</label>
+                                <textarea class="form__textarea textarea" type="text" id="address"
+                                    name="address"></textarea>
+                            </div>
+                        </div>
+                    </div>
+                    <button class="form__submit submit" type="submit">Сохранить</button>
+                </form>
+            </div>
+        </section>
+        <hr>
+        <section class="sms">
+            <div class="container">
+                <div class="sms__title title">
+                    <h2 class="sms__h2 h2">SMS-рассылки</h2>
+                </div>
+                <div class="sms__text text">Прочтите
+                    <a href="#">договор о рассылке SMS-сообщений</a>
+                    . Вписывая альфаимя вы принимаете условия этого договора и несете ответственность согласно этому
+                    договору.
+                </div>
+                <form action="#" class="sms__form form" method="post">
+                    <div class="form__field field">
+                        <label class="form__label label" for="sender">Отправитель(альфаимя)</label>
+                        <div class="form__input-container">
+                            <input class="form__input input" type="text" id="sender" name="sender">
+                            <span class="form__input-text">От 3 до 11 символов, только латиница и цифры (без пробелов),
+                                обязательно налицие хотя бы одной
+                                буквы.</span>
+                        </div>
+                    </div>
+                    <button class="form__submit submit" type="submit">Сохранить</button>
+                </form>
+            </div>
+        </section>
+        <hr>
+        <section class="payment">
+            <div class="container">
+                <div class="payment__title title">
+                    <h2 class="payment__h2 h2">Способ учета оплат</h2>
+                </div>
+                <form action="#" class="payment__form form" method="post">
+                    <div class="radio-form__item">
+                        <input type="radio" id="option1" name="radio-group" class="radio-form__input" checked>
+                        <label for="option1" class="radio-form__label">Простой</label>
+                        <p class="radio-form__description">Этот способ учеба подходит для небольших турфирм, где приём
+                            оплат
+                            от туристов осуществляет непосредственно руководитель или бухгалтерия. Доходы имеют всего
+                            два
+                            статуса - неоплаченный счет и оплаченный. Любой внесенный расход сразу считается оплаченным.
+                        </p>
+                    </div>
+
+                    <div class="radio-form__item">
+                        <input type="radio" id="option2" name="radio-group" class="radio-form__input">
+                        <label for="option2" class="radio-form__label">Полный</label>
+                        <p class="radio-form__description">Этот способ учета подразумевает, что оплаты туристов вначале
+                            принимают менеджеры, а через время сдают их руководителю или инкассируют в бухгалтерию.
+                            Доходы
+                            имеют три статус - неоплаченный, не инкассированный, оплаченный. Расходы вначале вносятся
+                            менеджерами как рассходные счета (требования на оплату), а бухгалтер после оплаты меняет их
+                            статус на «оплаченный» (подтвержденный).</p>
+                    </div>
+
+                    <div class="radio-form__item">
+                        <label class="radio-form__text">Вы можете безболезненно изменять способ учета оплат в любой
+                            момент.
+                            Внесенная ранее информация при таком переходе не теряется. При переходе Простого к Полному
+                            способу, менеджеров необходимо попросить дополнительно вносить в систему счета по заявкам.
+                            Все
+                            это можно делать в окне «Оплаты» в заявке.</label>
+                    </div>
+                    <button class="form__submit" type="submit">Сохранить</button>
+                </form>
+            </div>
+        </section>
+        <hr>
+        <section class="ip-telefonia">
+            <div class="container">
+                <div class="ip-telefonia__title title">
+                    <h2 class="ip-telefonia__h2 h2">IP-телефония</h2>
+                </div>
+                <div class="ip-telefonia__subtitle subtitle">МоиТуристы умеют работать с IP-телефонией. Если у вас уже
+                    есть
+                    IP-телефония, то напишите нам, чтобы узнать, есть ли возможность интеграции с вашим провайдером.
+                    Если вы
+                    стоите перед выбором, то для России выбирайте
+                    <a href="#">Простые</a>
+                    звонки, для Украины
+                    <a href="#">Binotel</a>
+                    и пишите нам, чтобы подключить телефонию к вашему аккаунту.
+                </div>
+                <form action="#" class="ip-telefonia__checkbox-form form">
+                    <div class="checkbox-form__item">
+                        <input type="checkbox" id="checkbox1" name="checkbox-group" class="checkbox-form__input">
+                        <label for="checkbox1" class="checkbox-form__label">Включить интеграцию с Binotel</label>
+                        <p class="checkbox-form__description">Чтобы настроить интеграцию, сообщите сотрудникам
+                            Binotel.ua
+                            следующие данные:<br>
+                            API CALL SETTINGS: https://www.moituristy.ru/json/binotel/?tf=5500&key=a74c1376<br>
+                            API PUSH: https://www.moituristy.ru/json/binotel/push/?tf=5500&key=a74c1376</p>
+
+                    </div>
+                    <div class="checkbox-form__item">
+                        <input type="checkbox" id="checkbox2" name="checkbox-group" class="checkbox-form__input">
+                        <label for="checkbox2" class="checkbox-form__label">Включить интеграцию с «Простые
+                            звонки»</label>
+                        <div class="checkbox-form__ip-host">
+                            <label for="host" class="checkbox-form__label-text">IP или хост</label>
+                            <select name="checkbox-form__select" id="select-host">
+                                <option value="WSS://">WSS://</option>
+                            </select>
+                            <input type="text" class="ip-host_input">
+                            <label for="password" class="ip-host_label">Пароль</label>
+                            <input type="text" name="password" id="password" class="ip-host_input">
+                        </div>
+                        <div class="checkbox-form__num-definition">
+                            <label for="host" class="checkbox-form__label-text">Использовать
+                                <select name="checkbox-form__select" id="select-host">
+                                    <option value="1">1</option>
+                                    <option value="3">3</option>
+                                    <option value="5">5</option>
+                                    <option value="7" selected>7</option>
+                                </select>
+                                последних цифр номера для опледеления</label>
+                        </div>
+                        <div class="checkbox-form__description">
+                            Важно! После включения интеграции перейдите в
+                            <a href="#">Настройки</a>
+                            , и укажите внутренний номер телефонии для каждого сотрудника, который может принимать
+                            звонки.<br>
+                            Браузер Chrome, Firefox и Safari могут выводить всплывающее уведомление о поступлении
+                            звонка,
+                            это очень удобно. Браузер запросит у вас разрешение на вывод уведомлений. Нажмите
+                            «Разрешить» в
+                            окне, когда оно появится первый раз. И предупредите сотрудников о том, чтобы они также
+                            разрешили
+                            эти уведомления на своих компьютерах.
+                        </div>
+                    </div>
+                    <button class="form__submit" type="submit">Сохранить</button>
+                </form>
+            </div>
+        </section>
+        <hr>
+        <section class="other-settings">
+            <div class="container">
+                <div class="other-settings__title title">
+                    <h2 class="other-settings__h2 h2">Другие настройки</h2>
+                </div>
+                <form action="#" class="other-settings__checkbox-form form">
+                    <div class="checkbox-form__item">
+                        <input type="checkbox" id="checkbox1" name="checkbox-group" class="checkbox-form__input">
+                        <label for="checkbox1" class="checkbox-form__label-text">Требовать комментарий при изменении
+                            суммы
+                            по договору</label>
+                    </div>
+                    <div class="checkbox-form__item">
+                        <input type="checkbox" id="checkbox2" name="checkbox-group" class="checkbox-form__input">
+                        <label for="checkbox2" class="checkbox-form__label-text">Автоматически напоминать менеджеру при
+                            отсутствии движения по заявке в течении</label>
+                        <select name="checkbox-form__select" id="select-host">
+                            <option value="1">1 дней</option>
+                            <option value="3">3 дней</option>
+                            <option value="5" selected>5 дней</option>
+                            <option value="7">7 дней</option>
+                        </select>
+                        <ul class="checkbox-form__list">
+                            <span class="checkbox-form__list-title">Напоминание появляется в разделе «Дела» при двух
+                                условиях:</span>
+                            <li class="checkbox-form__list-item">1) нет новых комментариев по заявке в течении
+                                указанного периода;</li>
+                            <li class="checkbox-form__list-item">2) нет других напоминаний по этой заявке.</li>
+                        </ul>
+                    </div>
+                    <button class="form__submit" type="submit">Сохранить</button>
+                </form>
+            </div>
+        </section>
+    </main>
+</body>
+
+</html>
