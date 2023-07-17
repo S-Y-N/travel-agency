@@ -10,8 +10,15 @@ body{
 
 .container {
     max-width: 1200px;
-    margin: 10px 10px;
+    margin: 0 auto;
     padding: 0 10px;
+}
+
+.header__title{
+    text-align: center;
+    padding-top: 25px;
+    margin-bottom: 50px;
+    font-size: 36px;
 }
 
 .form__row {
@@ -32,6 +39,10 @@ body{
     width: 40vw;
     height: 25px;
 }
+.form__field input{
+    font-size: 16px;
+    padding: 5px;
+}
 
 .form__textarea {
     width: 40vw;
@@ -47,6 +58,7 @@ body{
     padding: 10px 15px;
     margin-top: 10px;
     margin-bottom: 20px;
+    font-size: 16px;
 }
 
 .form__input-text {
@@ -76,10 +88,12 @@ body{
 }
 
 .radio-form__description {
-    margin-top: 0;
-    margin-left: 20px;
+    padding:10px 0 0 20px;
+    text-align: justify;
 }
-
+.radio-form__text{
+    text-align: justify;
+}
 .checkbox-form {
     display: flex;
     flex-direction: column;
