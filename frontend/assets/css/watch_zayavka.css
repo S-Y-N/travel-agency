@@ -1,0 +1,157 @@
+td, th {
+    border: 1px solid #999;
+    padding: 0.5rem;    
+    /*background-color: lightgray;*/
+    /*box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);*/
+    transition: 0.3s;
+    margin-right: 5px;
+    margin-left: 5px;
+    border-radius: 5px;
+}
+
+th {
+    width: 200px;
+    background-color: rgb(196, 180, 180);    
+    border: 1px;
+    border-radius: 5px;
+    
+}
+.search{
+    text-align: left;
+}
+.center{
+    display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.td_text {
+   /* max-width: 318px;*/
+    width: 600px;
+    -ms-text-overflow: ellipsis;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    /*-webkit-line-clamp: 5;*/
+    /*display: -webkit-box;*/
+    /*display: box;*/
+    word-wrap: break-word;
+    -webkit-box-orient: vertical;
+    font-size: small;
+    background-color: lightgray;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+}
+
+
+/* Flexbox Styles */
+.content {
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: 2%;
+    
+   
+    
+   
+    
+}
+.tourist_name{
+    font-size: 25px;
+    font-weight: bold;
+}
+.tours_name{
+    font-size: 18px;
+}
+.date_tour{
+    font-size: 15px;
+}
+.upduwn{
+    margin: 0;
+    font-family: cursive;
+    font-size: initial;
+    line-height: inherit;
+    height: 35px;
+    width: 40px;
+}
+
+.visible-scrollbar,
+.invisible-scrollbar,
+.mostly-customized-scrollbar {
+    display: block;
+    width: 42em;
+    overflow: auto;
+    height: 40em;
+    background-color: whitesmoke;
+}
+
+.invisible-scrollbar::-webkit-scrollbar {
+    display: none;
+}
+
+/* Demonstrate a "mostly customized" scrollbar
+ * (won't be visible otherwise if width/height is specified) */
+.mostly-customized-scrollbar::-webkit-scrollbar {
+    width: 10px;
+    height: 8px;
+    background-color: #aaa; /* or add it to the track */
+    border-radius: 2px;
+}
+
+/* Add a thumb */
+.mostly-customized-scrollbar::-webkit-scrollbar-thumb {
+    background: rgb(63, 63, 63);
+}
+.or_cont{
+    margin: 10px;
+    background-color: lightgray;
+    text-align: -webkit-center;
+    border-radius: 15px;
+}
+
+
+@import url(https://fonts.googleapis.com/css?family=Open+Sans);
+
+body{
+  background: #f2f2f2;
+  font-family: 'Open Sans', sans-serif;
+}
+
+.search {
+  width: 450px;
+  position: relative;
+  display: flex;
+}
+
+.searchTerm {
+  width: 450px;
+  border: 3px solid #6f7374;
+  border-right: none;
+  padding: 5px;
+  height: 20px;
+  border-radius: 5px 0 0 5px;
+  outline: none;
+  color: #9DBFAF;
+}
+
+.searchTerm:focus{
+  color: #6f7374;
+}
+
+.searchButton {
+  width: 80px;
+  height: 36px;
+  border: 1px solid #6f7374;
+  background: #6f7374;
+  text-align: center;
+  color: #fff;
+  border-radius: 0 5px 5px 0;
+  cursor: pointer;
+  font-size: 20px;
+}
+
+/*Resize the wrap to see the search bar change!*/
+.wrap{
+  width: 30%;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
