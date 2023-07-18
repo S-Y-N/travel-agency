@@ -1,0 +1,69 @@
+.container_sales-form {
+    position: relative;
+    margin: 0 auto;
+    width: 35%;
+    padding: 25px;
+    border: 0px;
+    border-radius: 30px;
+    background-color: rgba(224, 224, 224, 0.727);
+    align-items: center;
+    text-align: center;
+}
+
+.container__cancel-btn {
+    position: absolute;
+    font-size: 24px;
+    top: 15px;
+    right: 15px;
+    color:red;
+    border: none;
+    padding: 0;
+}
+.container__cancel-btn:hover {
+    color:rgb(181, 0, 0);
+    cursor: pointer;
+}
+
+.container__main-text {
+    font-weight: bold;
+    color: black;
+    font-size: 36px;
+    margin-bottom: 20px;
+}
+
+.row_sales-form {
+    width: 100%;
+    display: inline-block;
+    margin: 20px 0;
+    font-size: 20px;
+}
+
+.row__input {
+    font-size: 17px;
+    padding: 7px;
+    margin-left: 5px;
+    border-radius: 10px;
+    border: 1px solid rgb(106, 106, 106);
+}
+
+.row__input-textarea {
+    width: 65%;
+    font-size: 17px;
+    padding: 7px;
+    margin-left: 5px;
+    border-radius: 10px;
+    border: 1px solid rgb(106, 106, 106);
+}
+
+.container__button_submit {
+    background-color: green;
+    padding: 15px 70px;
+    color:whitesmoke;
+    font-size: 18px;
+    border: none;
+    border-radius: 15px;
+}
+.container__button_submit:hover {
+    background-color:rgb(1, 103, 1);
+    cursor: pointer;
+}

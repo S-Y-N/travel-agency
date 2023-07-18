@@ -1,0 +1,160 @@
+@import "company_reset.css";
+@import "fonts.css";
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-family: 'Poppins', sans-serif;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 10px;
+}
+
+.header__title{
+    text-align: center;
+    padding-top: 25px;
+    margin-bottom: 50px;
+    font-size: 36px;
+}
+
+.form__row {
+    display: flex;
+    flex-direction: column;
+}
+
+.form__col {
+    flex: 1;
+    margin-right: 10px;
+}
+
+.form__label {
+    display: block;
+    margin-top: 20px;
+}
+
+.form__input {
+    width: 40vw;
+    height: 25px;
+}
+.form__field input{
+    font-size: 16px;
+    padding: 5px;
+}
+
+.form__textarea {
+    width: 40vw;
+    height: 95px;
+    resize: none;
+}
+
+.form__submit {
+    background-color: #339ed8;
+    color: #ffffff;
+    border: 0;
+    border-radius: 5px;
+    padding: 10px 15px;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    font-size: 16px;
+}
+
+.form__input-text {
+    margin-left: 10px;
+}
+
+.form__input-container {
+    display: flex;
+    align-items: center;
+}
+
+.info__subtitle {
+    margin-top: 10px;
+}
+
+.radio-form {
+    display: flex;
+    flex-direction: column;
+}
+
+.radio-form__item {
+    margin-top: 20px;
+}
+
+.radio-form__label {
+    font-weight: 600;
+}
+
+.radio-form__description {
+    padding:10px 0 0 20px;
+    text-align: justify;
+}
+.radio-form__text{
+    text-align: justify;
+}
+.checkbox-form {
+    display: flex;
+    flex-direction: column;
+}
+
+.checkbox-form__item {
+    margin-top: 20px;
+}
+
+.checkbox-form__label {
+    font-weight: 600;
+}
+
+.checkbox-form__description {
+    margin-top: 0;
+    margin-left: 20px;
+    margin-top: 10px;
+}
+
+.checkbox-form__list {
+    list-style: none;
+}
+
+.checkbox-form__list-item {
+    margin-left: 20px;
+}
+
+.checkbox-form__ip-host{
+    margin-top: 10px;
+    margin-left: 20px;
+}
+
+.checkbox-form__num-definition{
+    margin-top: 10px;
+    margin-left: 20px;
+}
+
+.sms__title {
+    margin-bottom: 20px;
+}
+
+.payment__title {
+    margin-bottom: 20px;
+}
+
+.ip-telefonia__title{
+    margin-bottom: 20px;
+}
+
+.ip-telefonia__subtitle{
+    margin-bottom: 20px;
+}
+
+.ip-host_input{
+    height: 25px;
+}
+
+.checkbox-form__list-title{
+    margin-left: 20px;
+}
+
