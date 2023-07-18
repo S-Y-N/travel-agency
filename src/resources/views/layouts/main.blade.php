@@ -8,7 +8,7 @@
     <title>Travel agency Planeta Tour</title>
     <link rel="stylesheet" href="{{asset('assets/css/style.css')}}">
     <link rel="stylesheet" href="{{asset('assets/css/swiper-bundle.min.css')}}">
-
+    @stack('style')
 </head>
 <body>
 <header class="header">

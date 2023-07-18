@@ -1,0 +1,52 @@
+/* Reset default styles for common HTML elements */
+
+/* Box sizing */
+html {
+    box-sizing: border-box;
+  }
+  
+  *, *:before, *:after {
+    box-sizing: inherit;
+  }
+  
+  /* Remove default margin and padding */
+  body, h1, h2, h3, h4, h5, h6, p, ul, ol, li, figure, figcaption, blockquote, dl, dd {
+    margin: 0;
+    padding: 0;
+  }
+  
+  /* Remove list styles */
+  ul, ol {
+    list-style: none;
+  }
+  
+  /* Typography */
+  html, body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+  }
+  
+  /* Links */
+  a {
+    text-decoration: none;
+    color: inherit;
+  }
+  
+  /* Forms */
+  input, button, textarea, select {
+    font-family: inherit;
+  }
+  
+  /* Clear floated elements */
+  .clearfix::after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+  
+  /* Images */
+  img {
+    max-width: 100%;
+    height: auto;
+  }
+  

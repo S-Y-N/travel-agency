@@ -79,7 +79,7 @@ Route::group(['namespace' => 'App\Http\Controllers\Admin','prefix' => 'admin'],f
     });
 
     // Tourist
-    Route::group(['namespace' => 'tourist','prefix' => 'tourists'], function () {
+    Route::group(['namespace' => 'Tourist','prefix' => 'tourists'], function () {
         Route::get('/', 'IndexController')->name('admin.tourist.index');
         Route::get('/create', 'CreateController')->name('admin.tourist.create');
         Route::post('/', 'StoreController')->name('admin.tourist.store');
