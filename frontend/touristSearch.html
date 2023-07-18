@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="assets/css/touristSearchStyle.css">
+    <title>Пошук туристів</title>
+</head>
+
+<body>
+    <header class="header">
+        <div class="container">
+            <h1 class="header__title">Пошук туристів</h1>
+        </div>
+    </header>
+    <main class="main">
+        <div class="container">
+            <section class="search">
+                <form action="#" class="search__form" method="post">
+                    <input class="form__input" type="text" placeholder="Ім'я, телефон або пошта">
+                    <select class="form__status-select">
+                        <option value="" selected>Всі статуси</option>
+                        <option value="pending">Очікується</option>
+                        <option value="approved">Підтверджено</option>
+                        <option value="rejected">Відхилено</option>
+                    </select>
+                    <input class="form__note-input" type="text" placeholder="Примітка до клієнту">
+                    <input class="form__filter-input" type="text" placeholder="Додатковий фільтр">
+                    <button class="form__search-btn">Знайти</button>
+                </form>
+            </section>
+            <section class="result">
+                <div class="result__result-search">
+                    <div class="result__result-item">
+                        <div class="result__client-info">Іванов Іван Іванович</div>
+                        <div class="result__request-info">Тур в Іспанію</div>
+                        <div class="result__departure-info">15.09.2023 16:00</div>
+                        <div class="result__steps-left">2 кроки</div>
+                        <div class="result__payment-info">5000 грн</div>
+                    </div>
+                </div>
+            </section>
+        </div>
+    </main>
+</body>
+
+</html>

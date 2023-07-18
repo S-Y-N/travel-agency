@@ -1,0 +1,74 @@
+@import "/assets/css/profileReset.css";
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 10px;
+}
+
+.search__form {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.header__title {
+    text-align: center;
+    padding-top: 25px;
+    margin-bottom: 50px;
+    font-size: 36px;
+    font-weight: bold;
+}
+
+.search__form input,
+select {
+    font-size: 16px;
+    padding: 5px;
+}
+
+.form__input,
+.form__status-select,
+.form__note-input,
+.form__filter-input {
+    margin-right: 10px;
+    padding: 5px;
+}
+
+.form__search-btn {
+    padding: 7px 15px;
+    cursor: pointer;
+    background-color: #339ed8;
+    color: #ffffff;
+    border: 0;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+.result__result-search {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    gap: 10px;
+    font-size: 16px;
+}
+
+.result__result-item {
+    padding: 10px;
+    border: 1px solid #ccc;
+}
+
+.result__client-info,
+.result__request-info,
+.result__departure-info,
+.result__steps-left,
+.result__payment-info {
+    margin-bottom: 5px;
+}
