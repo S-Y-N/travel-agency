@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Create sales</title>
+    <link href="assets/css/add_sales.css" rel="stylesheet" type="text/css">
+</head>
+<body>
+
+    <form class="container_sales-form">
+        <button class="container__cancel-btn">X</button>
+
+        <div class="container__main-text">Створення заявки</div>
+
+        <div class="row_sales-form">
+            <label for="datetime">Виберіть дату та час:</label>
+            <input type="datetime-local" class="row__input" name="datetime"/>
+        </div>
+
+        <br/>
+
+        <div class="row_sales-form">
+            <label for="duration">Тривалість хвилин прийому:</label>
+            <input type="number" class="row__input" name="duration"/>
+        </div>
+
+        <br/>
+
+        <div class="row_sales-form">
+            <label for="tour">Виберіть тур:</label>
+            <select class="row__input" name="tour">
+                <option>Тур 1</option>
+                <option>Тур 2</option>
+                <option>Тур 3</option>
+            </select>
+        </div>
+
+        <br/>
+
+        <div class="row_sales-form">
+            <label for="manager">Виберіть менеджера:</label>
+            <select class="row__input" name="manager">
+                <option>Менеджер 1</option>
+                <option>Менеджер 2</option>
+                <option>Менеджер 3</option>
+            </select>
+        </div>
+
+        <br/>
+
+        <div class="row_sales-form">
+            <label for="description">Додатковий опис:</label><br/>
+            <textarea class="row__input-textarea" name="description"></textarea>
+        </div>
+
+        <br/>
+
+        <button class="container__button_submit" type="submit">Створити заявку</button>
+    </form>
+
+</body>
+</html>
