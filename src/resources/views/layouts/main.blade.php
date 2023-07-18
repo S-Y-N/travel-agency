@@ -7,6 +7,7 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Travel agency Planeta Tour</title>
     <link rel="stylesheet" href="{{asset('assets/css/style.css')}}">
+    @stack('style')
 </head>
 <body>
 <header>
