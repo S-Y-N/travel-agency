@@ -1,5 +1,5 @@
-@import "/assets/css/reset.css";
-@import "/assets/css/fonts.css";
+@import "./reset.css";
+@import "./fonts.css";
 
 html,
 body {

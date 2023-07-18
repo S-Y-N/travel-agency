@@ -1,7 +1,6 @@
 
 @import "reset.css";
 @import "fonts.css";
-
 html,
 body {
     height: 100%;
@@ -78,7 +77,7 @@ body {
     padding-top: 310px;
 }
 
-.propo__title {
+.promo__title {
     font-size: 64px;
     font-weight: 600;
     color: #fff;

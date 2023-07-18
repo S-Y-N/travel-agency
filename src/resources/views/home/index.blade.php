@@ -6,7 +6,7 @@
         <section class="promo">
             <div class="container">
                 <div class="promo__inner">
-                    <h1 class="propo__title">Discover Your Life, Travel Where You Want</h1>
+                    <h1 class="promo__title">Discover Your Life, Travel Where You Want</h1>
                     <p class="promo__text">Would you explore natur paradise in the world, let’s find the best
                         destination in world with us.</p>
                 </div>
@@ -17,8 +17,6 @@
                 <div class="fly__wrapper">
                     <div class="fly__top">
                         <div class="fly__top-inner">
-                            <button class="fly_btn fly__inner-flight"><img src="./assets/images/icons/airpalne.svg"
-                                                                           alt="" class="fly_img">Flight</button>
                             <button class="fly_btn fly__inner-flight"><img src="{{asset('assets/images/icons/airplane.svg')}}"
                                                                            alt="" class="fly_img">Flight</button>
                             <button class="fly_btn fly__inner-hotel"><img src="{{asset('assets/images/icons/hotel.svg')}}" alt=""
@@ -121,7 +119,7 @@
                         <div class="tabs__content-item" id="content-2">
                             <div class="travel-card">
                                 <div class="travel-card__title">
-                                    <img src="./assets/images/lake.png" alt="" class="card_img">
+                                    <img src="{{asset('assets/images/lake.png')}}" alt="" class="card_img">
                                     <p class="card__date">22 DEC 2022</p>
                                 </div>
                                 <div class="card__wrapper">
@@ -138,7 +136,7 @@
                             </div>
                             <div class="travel-card">
                                 <div class="travel-card__title">
-                                    <img src="./assets/images/beach.png" alt="" class="card_img">
+                                    <img src="{{asset('assets/images/lake.png')}}" alt="" class="card_img">
                                     <p class="card__date">14 FEB 2022</p>
                                 </div>
                                 <div class="card__wrapper">
@@ -155,7 +153,7 @@
                             </div>
                             <div class="travel-card">
                                 <div class="travel-card__title">
-                                    <img src="./assets/images/cave.png" alt="" class="card_img">
+                                    <img src="{{asset('assets/images/cave.png')}}" alt="" class="card_img">
                                     <p class="card__date">18 JUN 2022</p>
                                 </div>
                                 <div class="card__wrapper">
@@ -175,7 +173,7 @@
                         <div class="tabs__content-item" id="content-3">
                             <div class="travel-card">
                                 <div class="travel-card__title">
-                                    <img src="./assets/images/cave.png" alt="" class="card_img">
+                                    <img src="{{asset('assets/images/cave.png')}}" alt="" class="card_img">
                                     <p class="card__date">18 JUN 2022</p>
                                 </div>
                                 <div class="card__wrapper">
@@ -192,7 +190,7 @@
                             </div>
                             <div class="travel-card">
                                 <div class="travel-card__title">
-                                    <img src="./assets/images/beach.png" alt="" class="card_img">
+                                    <img src="{{asset('assets/images/beach.png')}}" alt="" class="card_img">
                                     <p class="card__date">14 FEB 2022</p>
                                 </div>
                                 <div class="card__wrapper">
@@ -209,7 +207,7 @@
                             </div>
                             <div class="travel-card">
                                 <div class="travel-card__title">
-                                    <img src="./assets/images/lake.png" alt="" class="card_img">
+                                    <img src="{{asset('assets/images/lake.png')}}" alt="" class="card_img">
                                     <p class="card__date">22 DEC 2022</p>
                                 </div>
                                 <div class="card__wrapper">
@@ -233,7 +231,7 @@
             <div class="container">
                 <div class="travel_block">
                     <div class="travel__img">
-                        <img src="./assets/images/travel.png" alt="" class="travel__img-img">
+                        <img src="{{asset('assets/images/travel.png') }}" alt="" class="travel__img-img">
                         <div class="travel__tag tag1">
                             300+
                             <span>destination</span>
@@ -282,7 +280,7 @@
                         <div class="recomm__content-item recomm__content-item--active" id="rec_content-1">
                             <div class="recomm__card">
                                 <div class="recomm__img">
-                                    <img src="./assets/images/rec1.png" alt="" class="recomm__img-img">
+                                    <img src="{{asset('assets/images/rec1.png')}}" alt="" class="recomm__img-img">
                                     <p class="recomm__rating">3.4</p>
                                 </div>
                                 <div class="recomm__info">
@@ -293,7 +291,7 @@
                             </div>
                             <div class="recomm__card">
                                 <div class="recomm__img">
-                                    <img src="./assets/images/rec2.png" alt="" class="recomm__img-img">
+                                    <img src="{{asset('assets/images/rec2.png')}}" alt="" class="recomm__img-img">
                                     <p class="recomm__rating">3.4</p>
                                 </div>
                                 <div class="recomm__info">
@@ -304,7 +302,7 @@
                             </div>
                             <div class="recomm__card">
                                 <div class="recomm__img">
-                                    <img src="./assets/images/rec3.png" alt="" class="recomm__img-img">
+                                    <img src="{{asset('assets/images/rec3.png')}}" alt="" class="recomm__img-img">
                                     <p class="recomm__rating">3.4</p>
                                 </div>
                                 <div class="recomm__info">
@@ -315,7 +313,7 @@
                             </div>
                             <div class="recomm__card">
                                 <div class="recomm__img">
-                                    <img src="./assets/images/rec4.png" alt="" class="recomm__img-img">
+                                    <img src="{{asset('assets/images/rec4.png')}}" alt="" class="recomm__img-img">
                                     <p class="recomm__rating">3.4</p>
                                 </div>
                                 <div class="recomm__info">
@@ -327,7 +325,7 @@
                         <div class="recomm__content-item" id="rec_content-2">
                             <div class="recomm__card">
                                 <div class="recomm__img">
-                                    <img src="./assets/images/rec1.png" alt="" class="recomm__img-img">
+                                    <img src="{{asset('assets/images/rec1.png')}}" alt="" class="recomm__img-img">
                                     <p class="recomm__rating">3.4</p>
                                 </div>
                                 <div class="recomm__info">
@@ -339,7 +337,7 @@
 
                             <div class="recomm__card">
                                 <div class="recomm__img">
-                                    <img src="./assets/images/rec3.png" alt="" class="recomm__img-img">
+                                    <img src="{{asset('assets/images/rec3.png')}}" alt="" class="recomm__img-img">
                                     <p class="recomm__rating">3.4</p>
                                 </div>
                                 <div class="recomm__info">
@@ -350,7 +348,7 @@
                             </div>
                             <div class="recomm__card">
                                 <div class="recomm__img">
-                                    <img src="./assets/images/rec2.png" alt="" class="recomm__img-img">
+                                    <img src="{{asset('assets/images/rec2.png')}}" alt="" class="recomm__img-img">
                                     <p class="recomm__rating">3.4</p>
                                 </div>
                                 <div class="recomm__info">
@@ -361,7 +359,7 @@
                             </div>
                             <div class="recomm__card">
                                 <div class="recomm__img">
-                                    <img src="./assets/images/rec4.png" alt="" class="recomm__img-img">
+                                    <img src="{{asset('assets/images/rec4.png')}}" alt="" class="recomm__img-img">
                                     <p class="recomm__rating">3.4</p>
                                 </div>
                                 <div class="recomm__info">
@@ -373,7 +371,7 @@
                         <div class="recomm__content-item" id="rec_content-3">
                             <div class="recomm__card">
                                 <div class="recomm__img">
-                                    <img src="./assets/images/santamonica.jpg" alt="" class="recomm__img-img">
+                                    <img src="{{asset('assets/images/santamonica.jpg')}}" alt="" class="recomm__img-img">
                                     <p class="recomm__rating">3.4</p>
                                 </div>
                                 <div class="recomm__info">
@@ -384,7 +382,7 @@
                             </div>
                             <div class="recomm__card">
                                 <div class="recomm__img">
-                                    <img src="./assets/images/cocoa.jpg" alt="" class="recomm__img-img">
+                                    <img src="{{asset('assets/images/cocoa.jpg')}}" alt="" class="recomm__img-img">
                                     <p class="recomm__rating">3.4</p>
                                 </div>
                                 <div class="recomm__info">
@@ -395,18 +393,18 @@
                             </div>
                             <div class="recomm__card">
                                 <div class="recomm__img">
-                                    <img src="./assets/images/hanalei.jpg" alt="" class="recomm__img-img">
+                                    <img src="{{asset('assets/images/hanalei.jpg')}}" alt="" class="recomm__img-img">
                                     <p class="recomm__rating">3.4</p>
                                 </div>
                                 <div class="recomm__info">
                                     <h3 class="recomm__info-title">Hanalei Bay</h3>
-                                    <p class="recomm__info-location">Havai</p>
+                                    <p class="recomm__info-location">Hawaii</p>
                                 </div>
 
                             </div>
                             <div class="recomm__card">
                                 <div class="recomm__img">
-                                    <img src="./assets/images/mavericks.jpg" alt="" class="recomm__img-img">
+                                    <img src="{{asset('assets/images/mavericks.jpg')}}" alt="" class="recomm__img-img">
                                     <p class="recomm__rating">3.4</p>
                                 </div>
                                 <div class="recomm__info">
@@ -437,9 +435,9 @@
                                 <p class="review__name">-Vand D</p>
                                 <p class="review__location">Happy Treloo</p>
                                 <div class="review__user">
-                                    <img src="./assets/images/user1.png" alt="" class="review__user-img">
+                                    <img src="{{asset('assets/images/user1.png')}}" alt="" class="review__user-img">
                                     <div class="review__rating">
-                                        <img src="./assets/images/icons/Star.svg" alt="" class="review__rating-img">
+                                        <img src="{{asset('assets/images/icons/Star.svg')}}" alt="" class="review__rating-img">
                                         <p class="review__rating-text">4.5</p>
                                     </div>
                                 </div>
@@ -457,9 +455,9 @@
                                 <p class="review__name">-Vand D</p>
                                 <p class="review__location">Happy Treloo</p>
                                 <div class="review__user">
-                                    <img src="./assets/images/user2.png" alt="" class="review__user-img">
+                                    <img src="{{asset('assets/images/user2.png')}}" alt="" class="review__user-img">
                                     <div class="review__rating">
-                                        <img src="./assets/images/icons/Star.svg" alt="" class="review__rating-img">
+                                        <img src="{{asset('assets/images/icons/Star.svg')}}" alt="" class="review__rating-img">
                                         <p class="review__rating-text">4.9</p>
                                     </div>
                                 </div>
@@ -477,9 +475,9 @@
                                 <p class="review__name">-Vand D</p>
                                 <p class="review__location">Happy Treloo</p>
                                 <div class="review__user">
-                                    <img src="./assets/images/user1.png" alt="" class="review__user-img">
+                                    <img src="{{asset('assets/images/user1.png')}}" alt="" class="review__user-img">
                                     <div class="review__rating">
-                                        <img src="./assets/images/icons/Star.svg" alt="" class="review__rating-img">
+                                        <img src="{{asset('assets/images/icons/Star.svg')}}" alt="" class="review__rating-img">
                                         <p class="review__rating-text">4.5</p>
                                     </div>
                                 </div>
@@ -497,9 +495,9 @@
                                 <p class="review__name">-Vand D</p>
                                 <p class="review__location">Happy Treloo</p>
                                 <div class="review__user">
-                                    <img src="./assets/images/user2.png" alt="" class="review__user-img">
+                                    <img src="{{asset('assets/images/user2.png')}}" alt="" class="review__user-img">
                                     <div class="review__rating">
-                                        <img src="./assets/images/icons/Star.svg" alt="" class="review__rating-img">
+                                        <img src="{{asset('assets/images/icons/Star.svg')}}" alt="" class="review__rating-img">
                                         <p class="review__rating-text">4.9</p>
                                     </div>
                                 </div>
