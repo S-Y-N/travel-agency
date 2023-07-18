@@ -1,0 +1,128 @@
+
+.container_employee-form {
+    margin: 0 auto;
+    width: 65%;
+    padding: 25px;
+    border: 0px;
+    border-radius: 20px;
+    background-color: rgba(224, 224, 224, 0.727);
+    align-items: center;
+    text-align: center;
+}
+
+.container__main-text {
+    font-weight: bold;
+    color: black;
+    font-size: 36px;
+    margin-bottom: 20px;
+}
+
+.row_employee-form {
+    width: 100%;
+    display: inline-block;
+    margin: 20px 0;
+    font-size: 20px;
+}
+
+.col_employee-form {
+    display: inline-block;
+    margin: 0 30px;
+    text-align: start;
+}
+
+.col_employee-form-checkbox {
+    display: inline-block;
+    margin: 0 10px;
+    text-align: start;
+    vertical-align: top;
+}
+
+.row__input {
+    font-size: 17px;
+    padding: 7px;
+    margin-left: 5px;
+    border-radius: 10px;
+    border: 1px solid rgb(106, 106, 106);
+}
+.row__input-prem {
+    font-size: 17px;
+    padding: 7px;
+    margin-left: 5px;
+    border-radius: 10px;
+    border: 1px solid rgb(106, 106, 106);
+    width: 60px;
+}
+.row__input-work {
+    font-size: 17px;
+    padding: 7px;
+    border-radius: 10px;
+    border: 1px solid rgb(106, 106, 106);
+    width: 80px;
+    margin-bottom: 20px;
+}
+
+.row__label-text {
+    display: inline-block;
+    width: 160px;
+    font-size: 16px;
+    text-align: left;
+    margin-left: 26px;
+}
+
+.container__text-dost {
+    font-weight: bold;
+    font-size: 26px;
+    margin-top: 20px;
+}
+
+.row__label-prem {
+    display: inline-block;
+    width: 155px;
+    text-align: left;
+}
+
+.row__label-countries {
+    display: inline-block;
+    width: 200px;
+    text-align: left;
+}
+
+.container__button_submit {
+    background-color: green;
+    padding: 15px 70px;
+    color:whitesmoke;
+    font-size: 18px;
+    border: none;
+    border-radius: 15px;
+} .container__button_submit:hover {
+    background-color:rgb(1, 103, 1);
+    cursor: pointer;
+}
+
+.container__cancel-btn {
+    background-color: rgb(197, 25, 25);
+    padding: 15px 70px;
+    color:whitesmoke;
+    font-size: 18px;
+    border: none;
+    border-radius: 15px;
+    margin-left: 20px;
+}
+.container__cancel-btn:hover {
+    background-color:rgb(157, 6, 6);
+    cursor: pointer;
+}
+
+.container__set-all-btn {
+    text-decoration: underline;
+    background-color: none;
+    margin: 20px;
+    text-align: end;
+    color:rgb(0, 0, 237);
+    font-size: 16px;
+    border: none;
+}
+.container__set-all-btn:hover {
+    color:rgb(0, 0, 186);
+    cursor: pointer;
+}

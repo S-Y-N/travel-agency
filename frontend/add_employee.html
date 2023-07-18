@@ -1,0 +1,320 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Create sales</title>
+    <link href="assets/css/add_employee.css" rel="stylesheet" type="text/css">
+</head>
+<body>
+
+    <form class="container_employee-form">
+        <div class="container__main-text">Додавання працівника</div>
+
+        <div class="row_employee-form">
+            <div class="col_employee-form">
+                <label for="first_name">Ім'я:</label>
+                <input type="text" class="row__input" name="first_name"/>
+            </div>
+
+            <div class="col_employee-form">
+                <label for="last_name">Прізвище:</label>
+                <input type="text" class="row__input" name="last_name"/>
+            </div>
+        </div>
+
+        <br/>
+
+        <div class="row_employee-form">
+            <div class="col_employee-form">
+                <label for="mail">Пошта:</label>
+                <input type="email" class="row__input" name="mail"/>
+            </div>
+
+            <div class="col_employee-form">
+                <label for="pass">Пароль:</label>
+                <input type="password" class="row__input" name="pass"/>
+            </div>
+        </div>
+
+        <br/>
+
+        <div class="container__text-dost">Оберіть доступ</div>
+
+        <div class="row_employee-form">
+            <div class="col_employee-form-checkbox">
+                <input type="checkbox" class="row__input" name="manager"/>
+                <label for="manager">Менеджер</label><br/>
+                <label class="row__label-text">має доступ до клієнтів, отримує заявки від туристів</label>
+            </div>
+            <div class="col_employee-form-checkbox">
+                <input type="checkbox" class="row__input" name="marketolog"/>
+                <label for="marketolog">Маркетолог</label><br/>
+                <label class="row__label-text">має доступ до розділу Маркетинг та деяким звітам у статистиці</label>
+            </div>
+            <div class="col_employee-form-checkbox">
+                <input type="checkbox" class="row__input" name="buhgalter"/>
+                <label for="buhgalter">Бухгалтер</label><br/>
+                <label class="row__label-text">може вносити доходи та витрати за договорами (у вікні Оплати)</label>
+            </div>
+            <div class="col_employee-form-checkbox">
+                <input type="checkbox" class="row__input" name="director"/>
+                <label for="director">Директор</label><br/>
+                <label class="row__label-text">має доступ до всіх розділів, також керує користувачами</label>
+            </div>
+        </div>
+
+        <br/><br/><br/>
+
+        <div class="container__text-dost">Премії</div>
+
+        
+        <div class="row_employee-form">
+            <label for="pr_tour_1" class="row__label-prem">Тур</label>
+            <input type="number" class="row__input-prem" name="pr_tour_1" placeholder="0"/>
+            <label for="pr_tour_2">грн. +</label>
+            <input type="number" class="row__input-prem" name="pr_tour_2" placeholder="0"/>
+            <label for="pr_tour_3">% від прибутку +</label>
+            <input type="number" class="row__input-prem" name="pr_tour_3" placeholder="0"/>
+            <label for="pr_tour_3">% від вартості роботи</label>
+        </div>
+        <div class="row_employee-form">
+            <label for="pr_viz-tour_1" class="row__label-prem">Візовий тур</label>
+            <input type="number" class="row__input-prem" name="pr_viz-tour_1" placeholder="0"/>
+            <label for="pr_viz-tour_2">грн. +</label>
+            <input type="number" class="row__input-prem" name="pr_viz-tour_2" placeholder="0"/>
+            <label for="pr_viz-tour_3">% від прибутку +</label>
+            <input type="number" class="row__input-prem" name="pr_viz-tour_3" placeholder="0"/>
+            <label for="pr_viz-tour_3">% від вартості роботи</label>
+        </div>
+        <div class="row_employee-form">
+            <label for="pr_exc-tour_1" class="row__label-prem">Екскурсійний тур</label>
+            <input type="number" class="row__input-prem" name="pr_exc-tour_1" placeholder="0"/>
+            <label for="pr_exc-tour_2">грн. +</label>
+            <input type="number" class="row__input-prem" name="pr_exc-tour_2" placeholder="0"/>
+            <label for="pr_exc-tour_3">% від прибутку +</label>
+            <input type="number" class="row__input-prem" name="pr_exc-tour_3" placeholder="0"/>
+            <label for="pr_exc-tour_3">% від вартості роботи</label>
+        </div>
+        <div class="row_employee-form">
+            <label for="pr_bilet_1" class="row__label-prem">Білети</label>
+            <input type="number" class="row__input-prem" name="pr_bilet_1" placeholder="0"/>
+            <label for="pr_bilet_2">грн. +</label>
+            <input type="number" class="row__input-prem" name="pr_bilet_2" placeholder="0"/>
+            <label for="pr_bilet_3">% від прибутку +</label>
+            <input type="number" class="row__input-prem" name="pr_bilet_3" placeholder="0"/>
+            <label for="pr_bilet_3">% від вартості роботи</label>
+        </div>
+        <div class="row_employee-form">
+            <label for="pr_strah_1" class="row__label-prem">Страховка</label>
+            <input type="number" class="row__input-prem" name="pr_strah_1" placeholder="0"/>
+            <label for="pr_strah_2">грн. +</label>
+            <input type="number" class="row__input-prem" name="pr_strah_2" placeholder="0"/>
+            <label for="pr_strah_3">% від прибутку +</label>
+            <input type="number" class="row__input-prem" name="pr_strah_3" placeholder="0"/>
+            <label for="pr_strah_3">% від вартості роботи</label>
+        </div>
+        <div class="row_employee-form">
+            <label for="pr_sim_1" class="row__label-prem">SIM</label>
+            <input type="number" class="row__input-prem" name="pr_sim_1" placeholder="0"/>
+            <label for="pr_sim_2">грн. +</label>
+            <input type="number" class="row__input-prem" name="pr_sim_2" placeholder="0"/>
+            <label for="pr_sim_3">% від прибутку +</label>
+            <input type="number" class="row__input-prem" name="pr_sim_3" placeholder="0"/>
+            <label for="pr_sim_3">% від вартості роботи</label>
+        </div>
+        <div class="row_employee-form">
+            <label for="pr_other_1" class="row__label-prem">Інше</label>
+            <input type="number" class="row__input-prem" name="pr_other_1" placeholder="0"/>
+            <label for="pr_other_2">грн. +</label>
+            <input type="number" class="row__input-prem" name="pr_other_2" placeholder="0"/>
+            <label for="pr_other_3">% від прибутку +</label>
+            <input type="number" class="row__input-prem" name="pr_other_3" placeholder="0"/>
+            <label for="pr_other_3">% від вартості роботи</label>
+        </div>
+
+        <br/>
+
+        <div class="row_employee-form">
+            <label for="check-clients">Перегляд чужих клієнтів не більше</label>
+            <input type="number" class="row__input-prem" name="check-clients"/>
+            <label for="check-clients">(пусто означає "без обмежень")</label>
+        </div>
+
+        <br/><br/><br/><br/>
+
+        <div class="row_employee-form">
+            <label for="generated_email">Згенерована пошта</label>
+            <input type="email" class="row__input" name="generated_email" placeholder="poshta@ukr.net" readonly/>
+        </div>
+
+        <br/>
+
+        <div class="container__text-dost">Час роботи</div>
+
+        <div class="row_employee-form">
+            <div class="col_employee-form">
+                <label>Пн: </label>
+                <select class="row__input-work" name="pn1">
+                    <option>08-00</option>
+                    <option>09-00</option>
+                    <option>12-00</option>
+                </select>
+                <label>-</label>
+                <select class="row__input-work" name="pn2">
+                    <option>16-00</option>
+                    <option>18-00</option>
+                    <option>20-00</option>
+                </select>
+            </div>
+            <div class="col_employee-form">
+                <label>Вт: </label>
+                <select class="row__input-work" name="vt1">
+                    <option>08-00</option>
+                    <option>09-00</option>
+                    <option>12-00</option>
+                </select>
+                <label>-</label>
+                <select class="row__input-work" name="vt2">
+                    <option>16-00</option>
+                    <option>18-00</option>
+                    <option>20-00</option>
+                </select>
+            </div>
+            <div class="col_employee-form">
+                <label>Ср: </label>
+                <select class="row__input-work" name="sr1">
+                    <option>08-00</option>
+                    <option>09-00</option>
+                    <option>12-00</option>
+                </select>
+                <label>-</label>
+                <select class="row__input-work" name="sr2">
+                    <option>16-00</option>
+                    <option>18-00</option>
+                    <option>20-00</option>
+                </select>
+            </div>
+            <div class="col_employee-form">
+                <label>Чт: </label>
+                <select class="row__input-work" name="ct1">
+                    <option>08-00</option>
+                    <option>09-00</option>
+                    <option>12-00</option>
+                </select>
+                <label>-</label>
+                <select class="row__input-work" name="ct2">
+                    <option>16-00</option>
+                    <option>18-00</option>
+                    <option>20-00</option>
+                </select>
+            </div>
+            <div class="col_employee-form">
+                <label>Пт: </label>
+                <select class="row__input-work" name="pt1">
+                    <option>08-00</option>
+                    <option>09-00</option>
+                    <option>12-00</option>
+                </select>
+                <label>-</label>
+                <select class="row__input-work" name="pt2">
+                    <option>16-00</option>
+                    <option>18-00</option>
+                    <option>20-00</option>
+                </select>
+            </div>
+            <div class="col_employee-form">
+                <label>Сб: </label>
+                <select class="row__input-work" name="sb1">
+                    <option>08-00</option>
+                    <option>09-00</option>
+                    <option>12-00</option>
+                </select>
+                <label>-</label>
+                <select class="row__input-work" name="sb2">
+                    <option>16-00</option>
+                    <option>18-00</option>
+                    <option>20-00</option>
+                </select>
+            </div>
+            <div class="col_employee-form">
+                <label>Нд: </label>
+                <select class="row__input-work" name="nd1">
+                    <option>08-00</option>
+                    <option>09-00</option>
+                    <option>12-00</option>
+                </select>
+                <label>-</label>
+                <select class="row__input-work" name="nd2">
+                    <option>16-00</option>
+                    <option>18-00</option>
+                    <option>20-00</option>
+                </select>
+            </div>
+        </div>
+
+        <br/>
+
+        <div class="container__text-dost">Направлення туризму</div>
+
+        <button class="container__set-all-btn">Обрати всі країни</button>
+
+        <div class="row_employee-form">
+            <div class="col_employee-form-checkbox">
+                <input type="checkbox" class="row__input" name="abhazia"/>
+                <label for="abhazia" class="row__label-countries">Абхазія</label>
+            </div>
+            <div class="col_employee-form-checkbox">
+                <input type="checkbox" class="row__input" name="iordania"/>
+                <label for="iordania" class="row__label-countries">Іорданія</label>
+            </div>
+            <div class="col_employee-form-checkbox">
+                <input type="checkbox" class="row__input" name="panama"/>
+                <label for="panama" class="row__label-countries">Панама</label>
+            </div>
+        </div>
+        <div class="row_employee-form">
+            <div class="col_employee-form-checkbox">
+                <input type="checkbox" class="row__input" name="australia"/>
+                <label for="australia" class="row__label-countries">Австралія</label>
+            </div>
+            <div class="col_employee-form-checkbox">
+                <input type="checkbox" class="row__input" name="irak"/>
+                <label for="irak" class="row__label-countries">Ірак</label>
+            </div>
+            <div class="col_employee-form-checkbox">
+                <input type="checkbox" class="row__input" name="papua-new"/>
+                <label for="papua-new" class="row__label-countries">Папуа-Нова Гвінея</label>
+            </div>
+        </div>
+        <div class="row_employee-form">
+            <div class="col_employee-form-checkbox">
+                <input type="checkbox" class="row__input" name="austria"/>
+                <label for="austria" class="row__label-countries">Австрія</label>
+            </div>
+            <div class="col_employee-form-checkbox">
+                <input type="checkbox" class="row__input" name="iran"/>
+                <label for="iran" class="row__label-countries">Іран</label>
+            </div>
+            <div class="col_employee-form-checkbox">
+                <input type="checkbox" class="row__input" name="paragway"/>
+                <label for="paragway" class="row__label-countries">Парагвай</label>
+            </div>
+        </div>
+
+        <br/><br/>
+
+        <div class="row_employee-form">
+            <label for="coef">Коефіцієнт вірогідності</label>
+            <input type="number" class="row__input-prem" name="coef" placeholder="1"/>
+        </div>
+
+        <br/><br/>
+
+        <button class="container__button_submit" type="submit">Зберегти</button>
+        <button class="container__cancel-btn">Відміна</button>
+    </form>
+
+</body>
+</html>
