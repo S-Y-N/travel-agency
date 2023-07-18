@@ -18,10 +18,10 @@
                 <a href="#" class="logo"><span>Planet Tour</span></a>
                 <ul class="menu-list">
                     <li class="menu-item">
-                        <a href="#" class="menu-link"><span>Review</span></a>
+                        <a href="#reviews" class="menu-link"><span>Review</span></a>
                     </li>
                     <li class="menu-item">
-                        <a href="#" class="menu-link"><span>Tips</span></a>
+                        <a href="#recommended" class="menu-link"><span>Tips</span></a>
                     </li>
                     <li class="menu-item">
                         <a href="#" class="menu-link"><span>Alerts</span></a>
@@ -30,8 +30,21 @@
                         <a href="#" class="menu-link"><span>Blog</span></a>
                     </li>
                     <li class="menu-item">
-                        <a href="#" class="menu-link"><span>Log in</span></a>
+                        <a href="{{route('admin.login')}}" class="menu-link"><span>Log in</span></a>
                     </li>
+                    <div class="dropdown">
+                    <li class="menu-item">
+                        <a href="{{route('admin.tour.index')}}" class="menu-link"><span>Tours</span></a>
+                        <div class="dropdown-content">
+                            <a href="{{route('admin.tour.create')}}">Create</a>
+                            <a href="{{route('admin.tour.store')}}">Store</a>
+                            <a href="{{route('admin.tour.show')}}">Show</a>
+                            <a href="{{route('admin.tour.edit')}}">Edit</a>
+                            <a href="{{route('admin.tour.update')}}">Update</a>
+                            <a href="{{route('admin.tour.delete')}}">Delete</a>
+                        </div>
+                    </li>
+                    </div>
                 </ul>
             </nav>
         </div>
