@@ -4,7 +4,7 @@ namespace App\Http\Controllers\Admin\Home;
 
 use App\Http\Controllers\Controller;
 
-class HomeController extends Controller
+class IndexController extends Controller
 {
     public function __invoke()
     {
