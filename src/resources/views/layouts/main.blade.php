@@ -7,9 +7,11 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Travel agency Planeta Tour</title>
     <link rel="stylesheet" href="{{asset('assets/css/style.css')}}">
+    <link rel="stylesheet" href="{{asset('assets/css/swiper-bundle.min.css')}}">
+
 </head>
 <body>
-<header>
+<header class="header">
     <div class="container">
         <nav class="nav">
             <a href="#" class="logo"><span>Planet Tour</span></a>
@@ -49,6 +51,10 @@
         </nav>
     </div>
 </footer>
+<script src="{{asset('assets/js/swiper-bundle.min.js')}}"></script>
+<script src="{{asset('assets/js/script.js')}}"></script>
+<script src="{{asset('assets/js/main.js')}}"></script>
+<script src="{{asset('assets/js/second.js')}}"></script>
 
 </body>
 </html>
