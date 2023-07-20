@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="assets/css/add_tourist.css" rel="stylesheet" type="text/css">
+    <title>Create tourist</title>
+</head>
+<body>
+    <main class="main">
+        <div class="form_tourist">
+            <h2 class="form_tourist__title">Створення нового туриста</h2>
+            <form class="form_tourist__create" action="#" method="post">
+                <div class="form_tourist__col">
+                    <div class="form_tourist__field">
+                        <label class="form_tourist__label" for="lastname">Прізвище</label>
+                        <input class="form_tourist__input" type="text" name="lastname" id="lastname" placeholder="Доу">
+                    </div>
+                    <div class="form_tourist__field">
+                        <label class="form_tourist__label" for="firstname">Ім'я</label>
+                        <input class="form_tourist__input" type="text" name="firstname" id="firstname" placeholder="Джон">
+                    </div>
+                    <div class="form_tourist__field">
+                        <label class="form_tourist__label" for="middlename">По-батькові</label>
+                        <input class="form_tourist__input" type="text" name="middlename" id="middlename" placeholder="Володимирович">
+                    </div>
+                    <div class="form_tourist__field">
+                        <label class="form_tourist__label" for="phone">Номер телефону</label>
+                        <input class="form_tourist__input" type="text" name="phone" id="phone" placeholder="+380 96 123 4567">
+                    </div>
+                    <div class="form_tourist__field">
+                        <label class="form_tourist__label" for="telegram">Telegram</label>
+                        <input class="form_tourist__input" type="checkbox" name="telegram" id="telegram">
+                        <label class="form_tourist__label" for="viber">Viber</label>
+                        <input class="form_tourist__input" type="checkbox" name="viber" id="viber">
+                        <label class="form_tourist__label" for="whatsapp">WhatsApp</label>
+                        <input class="form_tourist__input" type="checkbox" name="whatsapp" id="whatsapp">
+                    </div>
+                    <div class="form_tourist__field">
+                        <label class="form_tourist__label" for="email">Е-мейл</label>
+                        <input class="form_tourist__input" type="email" name="email" id="email" placeholder="mail@gmail.com">
+                    </div>
+                    <div class="form_tourist__field">
+                        <label class="form_tourist__label" for="city">Місто</label>
+                        <input class="form_tourist__input" type="text" name="city" id="city" placeholder="Київ">
+                    </div>
+                    <div class="form_tourist__field">
+                        <label class="form_tourist__label" for="birth-date">Дата народження</label>
+                        <input class="form_tourist__input" type="date" name="birth-date" id="birth-date"/>
+                    </div>
+                    <div class="form_tourist__field">
+                        <label class="form_tourist__label" for="pass-serial">Серія паспорта</label>
+                        <input class="form_tourist__input" type="text" name="pass-serial" id="pass-serial" placeholder="№12345678">
+                    </div>
+                    <div class="form_tourist__field">
+                        <label class="form_tourist__label" for="pass-num">Номер паспорта</label>
+                        <input class="form_tourist__input" type="text" name="pass-num" id="pass-num" placeholder="12345">
+                    </div>
+                    <div class="form_tourist__field">
+                        <label class="form_tourist__label" for="pass-dist">Ким видано</label>
+                        <input class="form_tourist__input" type="text" name="pass-dist" id="pass-dist" placeholder="4646">
+                    </div>
+                    <div class="form_tourist__field">
+                        <label class="form_tourist__label" for="pass-date">Дата видачі</label>
+                        <input class="form_tourist__input" type="date" name="pass-date" id="pass-date"/>
+                    </div>
+                </div>
+                <button class="form_tourist button__submit" type="submit">Зберегти</button>
+                <button class="form_tourist button__cancel" type="submit">Відмінити</button>
+            </form>
+        </div>
+    </main>
+</body>
+</html>

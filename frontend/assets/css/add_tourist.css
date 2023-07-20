@@ -1,0 +1,66 @@
+body{
+    font-family: 'Poppins', sans-serif;
+    max-width: 100%;
+    text-align: center;
+}
+.form_tourist {
+    font-family: inherit;
+    max-width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: left;
+    background-color: rgba(224, 224, 224, 0.727);
+}
+.form_tourist__title {
+    text-align: center;
+    padding-top: 25px;
+    margin-bottom: 50px;
+    font-size: 36px;
+}
+.form_tourist__create {
+    font-size: 22px;
+}
+.form_tourist__field {
+    margin-bottom: 15px;
+}
+.form_tourist__label {
+    margin-left: 40px;
+}
+.form_tourist__input {
+    font-size: 16px;
+    padding: 10px 15px;
+    margin-bottom: 7px;
+    border-radius: 7px;
+    border:1px solid darkgrey;
+}
+.form_tourist_field {
+    text-align: left;
+}
+.button__submit {
+    margin: 25px 20px;
+    font-size: 20px;
+    border-radius: 10px;
+    padding: 5px 10px;
+    border: 1px solid darkblue;
+    background-color:green;
+    cursor: pointer;
+    color: white;
+}
+.button__submit:hover {
+    background-color:rgb(6, 83, 6);
+    font-weight: bold;
+}
+.button__cancel {
+    margin: 25px auto;
+    font-size: 20px;
+    border-radius: 10px;
+    padding: 5px 10px;
+    border: 1px solid darkblue;
+    background-color:red;
+    cursor: pointer;
+    color: white;
+}
+.button__cancel:hover {
+    background-color:rgb(185, 13, 13);
+    font-weight: bold;
+}
